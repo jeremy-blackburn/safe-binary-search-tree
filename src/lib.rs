@@ -23,7 +23,7 @@ impl<T: Default> Node<T> {
 /// This is the end user facing struct that has the api
 /// for working with and manipulating binary search trees.
 #[derive(Debug)]
-struct BinarySearchTree<T> {
+pub struct BinarySearchTree<T> {
     root: Option<Node<T>>,
 }
 
